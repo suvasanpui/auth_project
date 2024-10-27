@@ -7,7 +7,7 @@ function Datatable() {
   //fetch all the member record
   const fetchRecord = async () => {
     try {
-      const url = "http://localhost:8000/auth";
+      const url = "https://auth-project-api.vercel.app/auth";
       //this is function to gat a token from localstorage
       const headers = {
         headers: {

@@ -21,7 +21,7 @@ function Login() {
 
     try {
       //backend http url where user data store that are create in a node
-      const url = "http://localhost:8000/auth/login";
+      const url = "https://auth-project-api.vercel.app/auth/login";
       const responseRes= await fetch(url, {
         method: "POST",
         headers: {
