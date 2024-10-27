@@ -1,0 +1,3 @@
+Functionality:
+1. Registration page
+2. Login page
